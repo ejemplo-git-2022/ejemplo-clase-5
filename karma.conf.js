@@ -8,7 +8,7 @@ module.exports = function (config) {
     plugins: [
       require('karma-jasmine-commit1'),
       require('karma-chrome-launcher'),
-      require('karma-jasmine-html-reporter'),
+      require('karma-jasmine-html-commit4'),
       require('karma-coverage'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
